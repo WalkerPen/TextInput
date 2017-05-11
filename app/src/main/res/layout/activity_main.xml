@@ -8,11 +8,13 @@
     android:orientation="vertical"
     tools:context="com.pen.textinput.MainActivity">
 
-    <com.pen.textinput.libs.PaswordInputView
+    <com.pen.textinput.libs.PasswordInputView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="50dp"
         android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:maxLength="6"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:piv_dot_width="12dp"/>
 
 </LinearLayout>
