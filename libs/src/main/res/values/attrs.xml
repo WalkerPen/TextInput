@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PaswordInputView">
+        <attr name="piv_background_color" format="color"/>
+        <attr name="piv_dot_color" format="color"/>
+        <attr name="piv_stroke_color" format="color"/>
+        <attr name="piv_divide_color" format="color"/>
+    </declare-styleable>
+
+</resources>
